@@ -61,6 +61,7 @@ class Shop : ISearchable
         Console.WriteLine("\nUser - Opens user manager\n" +
                           "Products - List of all available products\n" +
                           "Orders - List of all Orders\n" +
+                          "Search - search system\n" +
                           "Exit - For exit\n");
     }
 
