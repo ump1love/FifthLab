@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Laptop",
+    "Description": "Very handy gadget for studying or working",
+    "Category": "electronics",
+    "Price": 1000,
+    "Quantity": 100,
+    "ProductId": 1
+  },
+  {
+    "Name": "Phone",
+    "Description": "Cute and powerful gadget for everyday use",
+    "Category": "electronics",
+    "Price": 400,
+    "Quantity": 100,
+    "ProductId": 2
+  },
+  {
+    "Name": "Book",
+    "Description": "Very interesting book",
+    "Category": "literature",
+    "Price": 20,
+    "Quantity": 100,
+    "ProductId": 3
+  }
+]

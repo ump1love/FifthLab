@@ -1,0 +1,17 @@
+D:\codes\codes for uni\Shop\Shop\bin\Debug\net6.0\Shop.exe
+D:\codes\codes for uni\Shop\Shop\bin\Debug\net6.0\Shop.deps.json
+D:\codes\codes for uni\Shop\Shop\bin\Debug\net6.0\Shop.runtimeconfig.json
+D:\codes\codes for uni\Shop\Shop\bin\Debug\net6.0\Shop.dll
+D:\codes\codes for uni\Shop\Shop\bin\Debug\net6.0\Shop.pdb
+D:\codes\codes for uni\Shop\Shop\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.csproj.AssemblyReference.cache
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.GeneratedMSBuildEditorConfig.editorconfig
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.AssemblyInfoInputs.cache
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.AssemblyInfo.cs
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.csproj.CoreCompileInputs.cache
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.csproj.CopyComplete
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.dll
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\refint\Shop.dll
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.pdb
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\Shop.genruntimeconfig.cache
+D:\codes\codes for uni\Shop\Shop\obj\Debug\net6.0\ref\Shop.dll
