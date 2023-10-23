@@ -5,7 +5,6 @@ class Order
     private int quantity;
     private decimal subtotal;
     private string address;
-    private string username;
     private DateTime orderDate;
     private Delivery status;
     private Product product;
@@ -39,11 +38,7 @@ class Order
         get { return address; }
         set { address = value; }
     }
-    public string Username
-    {
-        get { return username; }
-        set { username = value; }
-    }
+
     public DateTime OrderDate
     {
         get { return orderDate; }

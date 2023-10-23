@@ -1,20 +1,96 @@
 [
   {
-    "Username": "as",
-    "Salt": "AD7FAFDE633296494E284FD8A5E31083",
-    "HashedPassword": "3995830F7E92BE23FF6019F4383B66F6B0F9A69B850C194A06F2B75DDCEEDFD9",
-    "PurchaseHistory": [],
+    "Username": "asd",
+    "Salt": "70770627A2C9D2B9DDEB34639951C034",
+    "HashedPassword": "1BA30623B59BA64BDC2D2D47154B8923D1D1FA3E3C744C4D293EA86DC8489E31",
+    "PurchaseHistory": [
+      {
+        "Product": {
+          "Name": "Laptop",
+          "Description": "Very handy gadget for studying or working",
+          "Category": "electronics",
+          "Price": 1000,
+          "Quantity": 899,
+          "ProductId": 1
+        },
+        "Quantity": 100,
+        "Subtotal": 100000.0,
+        "OrderId": 2,
+        "Address": "asda",
+        "OrderDate": "2023-10-23T16:46:15.4626301+03:00",
+        "Status": 0
+      },
+      {
+        "Product": {
+          "Name": "Laptop",
+          "Description": "Very handy gadget for studying or working",
+          "Category": "electronics",
+          "Price": 1000,
+          "Quantity": 499,
+          "ProductId": 1
+        },
+        "Quantity": 400,
+        "Subtotal": 400000.0,
+        "OrderId": 3,
+        "Address": "asdasds",
+        "OrderDate": "2023-10-23T16:46:52.5553181+03:00",
+        "Status": 0
+      }
+    ],
     "UserCount": 1,
-    "DateOfCreation": "2023-10-13T16:39:43.609471+03:00",
-    "DateOfModification": "2023-10-13T16:39:43.6095129+03:00"
+    "DateOfCreation": "2023-10-23T16:39:30.9152429+03:00",
+    "DateOfModification": "2023-10-23T16:39:30.9153002+03:00"
   },
   {
-    "Username": "dsa",
-    "Salt": "1636C14C4B9618A91093BC3484519A23",
-    "HashedPassword": "1F314840F09C04B3D2A955314D747BCE79C7D7C569120367486039A3CD1C5B15",
-    "PurchaseHistory": [],
+    "Username": "qwe",
+    "Salt": "DB415299E0C251EE5D567AAC9E216E13",
+    "HashedPassword": "B4CC85612217D4E605D67D59FBCFCFEA1CFF9ECA1A6A716A0DF8D1CB0C0AC9F8",
+    "PurchaseHistory": [
+      {
+        "Product": {
+          "Name": "Laptop",
+          "Description": "Very handy gadget for studying or working",
+          "Category": "electronics",
+          "Price": 1000,
+          "Quantity": 899,
+          "ProductId": 1
+        },
+        "Quantity": 1,
+        "Subtotal": 1000.0,
+        "OrderId": 1,
+        "Address": "asd",
+        "OrderDate": "2023-10-23T16:45:26.8808931+03:00",
+        "Status": 2
+      }
+    ],
     "UserCount": 2,
-    "DateOfCreation": "2023-10-13T17:41:42.3747584+03:00",
-    "DateOfModification": "2023-10-13T17:41:42.3747635+03:00"
+    "DateOfCreation": "2023-10-23T16:39:39.9765886+03:00",
+    "DateOfModification": "2023-10-23T16:39:39.9766616+03:00"
+  },
+  {
+    "Username": "zxc",
+    "Salt": "ABC3E84215801F45033AD621AA6271F0",
+    "HashedPassword": "AA17CCF800AEE3413062EE95DE50B8A21C7F19AEFA23C1251F5F644C1E09169C",
+    "PurchaseHistory": [
+      {
+        "Product": {
+          "Name": "Laptop",
+          "Description": "Very handy gadget for studying or working",
+          "Category": "electronics",
+          "Price": 1000,
+          "Quantity": 299,
+          "ProductId": 1
+        },
+        "Quantity": 200,
+        "Subtotal": 200000.0,
+        "OrderId": 4,
+        "Address": "fds",
+        "OrderDate": "2023-10-23T16:47:34.0234757+03:00",
+        "Status": 0
+      }
+    ],
+    "UserCount": 3,
+    "DateOfCreation": "2023-10-23T16:46:02.3655788+03:00",
+    "DateOfModification": "2023-10-23T16:46:02.3655836+03:00"
   }
 ]

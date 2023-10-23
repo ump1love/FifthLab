@@ -50,7 +50,8 @@ class Shop : ISearchable
         string userTerminalChoice;
         Console.WriteLine("\nWelcome to our anti-GUI shop!\n" +
                           "Our shop uses a terminal as a navigation panel, " +
-                          "type \"help\" to get all available commands");
+                          "type \"help\" to get all available commands.\n" +
+                          "And by the way, this terminal is VERY sensitive to syntax\n");
         userTerminalChoice = Console.ReadLine().ToLower();
 
         return userTerminalChoice;
@@ -60,7 +61,6 @@ class Shop : ISearchable
     {
         Console.WriteLine("\nUser - Opens user manager\n" +
                           "Products - List of all available products\n" +
-                          "Orders - List of all Orders\n" +
                           "Search - search system\n" +
                           "Exit - For exit\n");
     }
@@ -201,30 +201,14 @@ class Shop : ISearchable
 
         orders.Add(order);
 
+        user.AddToPurchaseHistory(order);
+
         SaveOrders();
 
         Console.WriteLine("\nEverything is done. Thank you for purchasing!\n" +
                           $"Your order ID is: {order.OrderId}. " +
-                          "You can see its status from the menu by entering \"orders\"");
+                          "You can see its status from user menu by typing \'3\'");
 
-    }
-    public void ShopOrdersDisplay()
-    {
-        if(orders.Count >0)
-        {
-            Console.WriteLine($"There are currently {orders.Count} orders\n");
-            foreach (var order in orders)
-            {
-                Console.WriteLine($"Order ID: {order.OrderId}\n" +
-                                  $"Product Name: {order.Product.Name}\n" +
-                                  $"Quantity: {order.Quantity}\n" +
-                                  $"Price: {order.Subtotal}\n" +
-                                  $"Address: {order.Address}\n" +
-                                  $"Order Date: {order.OrderDate}\n" +
-                                  $"Order Status: {order.Status}\n");
-            }
-        }
-        else { Console.WriteLine("There are currently no orders to show. You can always change this"); }
     }
 
     public void ShopSearch()

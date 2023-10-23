@@ -6,7 +6,6 @@ class User
     private List<UserData> users = new List<UserData>();
     private static UserData count = new UserData();
     private int currentUser = count.UserCount;
-    private bool isLoggedIn = false;
 
     public User()
     {
@@ -66,7 +65,6 @@ class User
             {
                 currentUser = users.IndexOf(user);
                 Console.WriteLine("Login successful");
-                isLoggedIn = true;
                 return true;
             }
         }
@@ -126,6 +124,7 @@ class User
                               $"Username: {users[currentUser].Username}\n" +
                               $"Date of Creation: {users[currentUser].DateOfCreation}\n" +
                               $"Date of Modification: {users[currentUser].DateOfModification}");
+            ShowPurchaseHistory();
         }
         else { AbsenceOfTheUsers(); }
     }
@@ -202,6 +201,34 @@ class User
         }
         else { AbsenceOfTheUsers(); }
     }
+
+    public void AddToPurchaseHistory(Order order)
+    {
+        users[currentUser].PurchaseHistory.Add(order);
+        SaveUser();
+    }
+    public void ShowPurchaseHistory()
+    {
+        if (users[currentUser].PurchaseHistory.Count > 0)
+        {
+            Console.WriteLine("\nPurchase History:");
+            foreach (var order in users[currentUser].PurchaseHistory)
+            {
+                Console.WriteLine($"Order ID: {order.OrderId}\n" +
+                                  $"Product Name: {order.Product.Name}\n" +
+                                  $"Quantity: {order.Quantity}\n" +
+                                  $"Price: {order.Subtotal}\n" +
+                                  $"Address: {order.Address}\n" +
+                                  $"Order Date: {order.OrderDate}\n" +
+                                  $"Order Status: {order.Status}\n");
+            }
+        }
+        else
+        {
+            Console.WriteLine("No purchase history available.");
+        }
+    }
+
     public bool HasUsers()
     {
         return users.Count > 0;
@@ -210,7 +237,8 @@ class User
     public void AbsenceOfTheUsers()
     {
         Console.WriteLine("\n" +
-                          "There are currently no users.");
+                          "There are currently no users.\n" +
+                          "If you know that there has to be someone, try to restart this program.\n");
     }
 
     public void UserExiting()

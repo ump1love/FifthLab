@@ -5,14 +5,14 @@ class UserData
     private string username;
     private string salt;
     private string hashedPassword;
-    private List<string> purchaseHistory;
+    private List<Order> purchaseHistory;
     private DateTime dateOfCreation;
     private DateTime dateOfModification;
 
     public UserData()
     {
         userCount = 0;
-        purchaseHistory = new List<string>();
+        purchaseHistory = new List<Order>();
     }
 
     public string Username
@@ -33,7 +33,7 @@ class UserData
         set { hashedPassword = value; }
     }
 
-    public List<string> PurchaseHistory
+    public List<Order> PurchaseHistory
     {
         get { return purchaseHistory; }
         set { purchaseHistory = value; }

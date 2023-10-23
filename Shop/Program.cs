@@ -36,7 +36,6 @@
                         } while (userManagerChoice != '6');
                     }
                     break;
-                case "orders": shop.ShopOrdersDisplay(); break;
                 case "products": shop.ShopProducts(); shop.ShopAllProducts(); break;
                 case "search": shop.ShopSearch(); break;
                 case "exit": Console.WriteLine("Exiting... "); break;

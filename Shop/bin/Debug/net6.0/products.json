@@ -4,7 +4,7 @@
     "Description": "Very handy gadget for studying or working",
     "Category": "electronics",
     "Price": 1000,
-    "Quantity": 100,
+    "Quantity": 299,
     "ProductId": 1
   },
   {
@@ -12,7 +12,7 @@
     "Description": "Cute and powerful gadget for everyday use",
     "Category": "electronics",
     "Price": 400,
-    "Quantity": 100,
+    "Quantity": 1000,
     "ProductId": 2
   },
   {
@@ -20,7 +20,7 @@
     "Description": "Very interesting book",
     "Category": "literature",
     "Price": 20,
-    "Quantity": 100,
+    "Quantity": 1000,
     "ProductId": 3
   }
 ]
